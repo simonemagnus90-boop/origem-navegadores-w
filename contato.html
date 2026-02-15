@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Loja - Contato</title>
+</head>
+<body>
+  <header>
+    <h1>Contato</h1>
+    <nav>
+      <a href="index.html">Início</a> |
+      <a href="produtos.html">Produtos</a> |
+      <a href="contato.html">Contato</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Fale conosco</h2>
+
+    <form>
+      <p>
+        <label>Nome:<br>
+          <input type="text" name="nome" required>
+        </label>
+      </p>
+
+      <p>
+        <label>E-mail:<br>
+          <input type="email" name="email" required>
+        </label>
+      </p>
+
+      <p>
+        <label>Assunto:<br>
+          <select name="assunto">
+            <option>Dúvida</option>
+            <option>Troca/Devolução</option>
+            <option>Reclamação</option>
+            <option>Elogio</option>
+          </select>
+        </label>
+      </p>
+
+      <p>
+        <label>Mensagem:<br>
+          <textarea name="mensagem" rows="5" cols="35" required></textarea>
+        </label>
+      </p>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </form>
+  </main>
+
+  <footer>
+    <hr>
+    <p>Atendimento: (00) 0000-0000 | Email: contato@minhaloja.com</p>
+  </footer>
+</body>
+</html>
